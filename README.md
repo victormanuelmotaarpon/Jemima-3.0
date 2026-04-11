@@ -1,6 +1,6 @@
-
+------------------------------------------------------------
 JEMIMA NEURAL ENGINE v3.0 - DOCUMENTACIÓN
-
+------------------------------------------------------------
 
 DESARROLLADOR PRINCIPAL:
 Victor Manuel Mota Arpon. 
