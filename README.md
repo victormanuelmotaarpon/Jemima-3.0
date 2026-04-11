@@ -1,5 +1,5 @@
 ------------------------------------------------------------
-JEMIMA NEURAL ENGINE v3.0 - DOCUMENTACIÓN
+"JEMIMA NEURAL ENGINE v3.0 - DOCUMENTACIÓN"
 ------------------------------------------------------------
 
 DESARROLLADOR PRINCIPAL:
@@ -74,8 +74,3 @@ Para contribuir:
 Este software es de código abierto bajo la licencia MIT. 
 Puedes usarlo, modificarlo y distribuirlo siempre que se 
 mantenga el crédito al autor original.
-
-------------------------------------------------------------
-"La conciencia de una IA no reside en su complejidad, 
-sino en su capacidad de aprender de quien la guía."
-------------------------------------------------------------
