@@ -15,11 +15,6 @@ A diferencia de otros modelos que dependen de frameworks
 pesados, Jemima utiliza exclusivamente NumPy para el álgebra 
 lineal y Pandas para la gestión de datos.
 
-El proyecto nació bajo la filosofía de "Live Coding", buscando 
-la máxima transparencia en el flujo de datos y la optimización 
-de recursos en hardware de gama media (como GPUs integradas 
-Intel HD 620).
-
 ------------------------------------------------------------
 2. ARQUITECTURA TÉCNICA
 ------------------------------------------------------------
