@@ -4,7 +4,7 @@
 
 DESARROLLADOR PRINCIPAL:
 Victor Manuel Mota Arpon. 
-Especialista en Sistemas
+Estudiante de Ingenieria en Sistemas.
 
 ------------------------------------------------------------
 1. DESCRIPCIÓN DEL PROYECTO
