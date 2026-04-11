@@ -3,7 +3,7 @@
 ============================================================
 
 DESARROLLADOR PRINCIPAL:
-Victor Manuel Mota Arpon
+Victor Manuel Mota Arpon. 
 Especialista en Sistemas
 
 ------------------------------------------------------------
