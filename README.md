@@ -1,32 +1,31 @@
-------------------------------------------------------------
-JEMIMA AI v3.3 - DOCUMENTACIÓN
-------------------------------------------------------------
+# Jemima AI v3.1 - Motor de NLP con NumPy
 
-DESARROLLADOR PRINCIPAL:
-Victor Manuel Mota Arpon. 
-Estudiante de Ingenieria en Sistemas.
+Jemima es una arquitectura de red neuronal densa desarrollada desde cero para el procesamiento de lenguaje natural, optimizada para hardware con recursos limitados (Intel HD Graphics 620).
+
+## 🛠️ Interfaz de Comandos (CLI)
+
+El sistema opera mediante una consola interactiva que permite la gestión dinámica del conocimiento:
+
+| Comando | Acción Técnica |
+| :--- | :--- |
+| `enseñar:[pregunta]` | Fuerza el registro de una nueva entrada y dispara el re-entrenamiento supervisado. |
+| `modificar:[pregunta]` | Sobreescribe la respuesta de una entrada existente sin generar nuevos IDs. |
+| `actualizar:[pregunta]` | Concatena información adicional a una respuesta ya grabada. |
+| `salir` | Serializa los pesos en `cerebro_ia.npz` y finaliza la ejecución. |
+
+## 📂 Archivos del Proyecto
+
+* `datos.csv`: Dataset local de interacciones.
+* `cerebro_ia.npz`: Archivo de pesos entrenados (Memoria de la red).
+* `historial_preguntas.txt`: Log de auditoría de preguntas del usuario.
+
+## ⚙️ Uso
+
+1. Instala las dependencias: `pip install numpy pandas`
+2. Ejecuta el motor: `python Jemima3.3.py`
 
 ------------------------------------------------------------
-1. DESCRIPCIÓN DEL PROYECTO
-------------------------------------------------------------
-Jemima es un motor de inteligencia artificial basado en una 
-red neuronal profunda (Deep Learning) programada desde cero. 
-A diferencia de otros modelos que dependen de frameworks 
-pesados, Jemima utiliza exclusivamente NumPy para el álgebra 
-lineal y Pandas para la gestión de datos.
-
-------------------------------------------------------------
-4. COMANDOS DE CONTROL (CLI)
-------------------------------------------------------------
-Jemima permite la manipulación del conocimiento en tiempo real:
-
-  • enseñar: [pregunta]    -> Crea una respuesta nueva (ID nuevo).
-  • modificar: [pregunta]  -> Sobrescribe una respuesta existente.
-  • actualizar: [pregunta] -> Añade información a la respuesta actual.
-  • salir                  -> Cierra la aplicación.
-
-------------------------------------------------------------
-5. SECCIÓN DE CONTRIBUCIÓN (OPEN SOURCE)
+   SECCIÓN DE CONTRIBUCIÓN (OPEN SOURCE)
 ------------------------------------------------------------
 ¡El desarrollo de Jemima es evolutivo! Se invita a la 
 comunidad a colaborar en las siguientes áreas:
@@ -45,7 +44,7 @@ Para contribuir:
 3. Envía un Pull Request detallando los cambios.
 
 ------------------------------------------------------------
-6. LICENCIA
+   LICENCIA
 ------------------------------------------------------------
 Este software es de código abierto bajo la licencia MIT. 
 Puedes usarlo, modificarlo y distribuirlo siempre que se 
