@@ -1,5 +1,5 @@
 ------------------------------------------------------------
-JEMIMA NEURAL ENGINE v3.0 - DOCUMENTACIÓN
+JEMIMA AI v3.3 - DOCUMENTACIÓN
 ------------------------------------------------------------
 
 DESARROLLADOR PRINCIPAL:
