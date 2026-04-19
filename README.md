@@ -16,33 +16,14 @@ pesados, Jemima utiliza exclusivamente NumPy para el álgebra
 lineal y Pandas para la gestión de datos.
 
 ------------------------------------------------------------
-2. ARQUITECTURA TÉCNICA
-------------------------------------------------------------
-* Red Neuronal: Multicapa (Input, 2 Capas Ocultas, Output).
-* Activación: Función Sigmoide con Backpropagation.
-* Inicialización: Pesos Xavier/Glorot para estabilidad.
-* Clasificación: Multietiqueta con umbral de confianza > 0.6.
-* Optimización: Sistema de sobreescritura de etiquetas para 
-  mantener la red compacta y eficiente.
-
-------------------------------------------------------------
-3. ARCHIVOS DEL SISTEMA
-------------------------------------------------------------
-- Jemima3.0.py: Lógica de la red y bucle de interacción.
-- datos.csv: Dataset dinámico (Preguntas/Respuestas/IDs).
-- cerebro_ia.npz: Almacenamiento binario de pesos sinápticos.
-- historial_preguntas.txt: Log único de consultas del usuario.
-
-------------------------------------------------------------
 4. COMANDOS DE CONTROL (CLI)
 ------------------------------------------------------------
 Jemima permite la manipulación del conocimiento en tiempo real:
 
-- actualizar: [pregunta] -> Añade información a la respuesta 
-  existente (concatenación).
-- modificar: [pregunta] -> Sobreescribe la respuesta actual. 
-  Ideal para corregir errores sin aumentar el tamaño del modelo.
-- salir/exit -> Guarda el estado y cierra el programa.
+  • enseñar: [pregunta]    -> Crea una respuesta nueva (ID nuevo).
+  • modificar: [pregunta]  -> Sobrescribe una respuesta existente.
+  • actualizar: [pregunta] -> Añade información a la respuesta actual.
+  • salir                  -> Cierra la aplicación.
 
 ------------------------------------------------------------
 5. SECCIÓN DE CONTRIBUCIÓN (OPEN SOURCE)
